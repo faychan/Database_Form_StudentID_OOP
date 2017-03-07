@@ -33,6 +33,7 @@ public class formsis extends javax.swing.JFrame {
      */
     public formsis() {
         initComponents();
+        setDate(); setTime();
     }
 
     /**
@@ -48,6 +49,7 @@ public class formsis extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         ltime = new javax.swing.JLabel();
         ldate = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         tf1 = new javax.swing.JTextField();
@@ -87,15 +89,20 @@ public class formsis extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 51, 51));
         jPanel1.setLayout(null);
 
-        ltime.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        ltime.setFont(new java.awt.Font("Cooper Black", 0, 18)); // NOI18N
         ltime.setText("Time:");
         jPanel1.add(ltime);
         ltime.setBounds(780, 50, 254, 28);
 
-        ldate.setFont(new java.awt.Font("Cooper Black", 0, 14)); // NOI18N
+        ldate.setFont(new java.awt.Font("Cooper Black", 0, 18)); // NOI18N
         ldate.setText("Date:");
         jPanel1.add(ldate);
         ldate.setBounds(780, 20, 254, 28);
+
+        jLabel10.setFont(new java.awt.Font("Old English Text MT", 1, 24)); // NOI18N
+        jLabel10.setText("Rheinisch-Westfälische Technische Hochschule Aachen");
+        jPanel1.add(jLabel10);
+        jLabel10.setBounds(50, 20, 560, 50);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(10, 0, 1170, 90);
@@ -512,6 +519,7 @@ public class formsis extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup1;
     private com.toedter.calendar.JDateChooser date1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
