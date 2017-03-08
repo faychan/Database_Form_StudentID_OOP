@@ -31,7 +31,7 @@
 <br>
 - Print data from Netbean <br>
 <img src="https://github.com/faychan/Database_Form_StudentID_OOP/blob/master/FORM/src/img/SS13.PNG" width="75%" height="25%"> <br>
-<img src="https://github.com/faychan/Database_Form_StudentID_OOP/blob/master/FORM/src/img/SS14.PNG" width="75%" height="25%"> <br>
+<img src="https://github.com/faychan/Database_Form_StudentID_OOP/blob/master/FORM/src/img/SS114.PNG" width="75%" height="25%"> <br>
 <br>
 
 ### Identity
